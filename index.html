@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1><p>Zapatillas</p> </h1>
+    <div id="Carrito">
+        <h2>Productos</h2>
+        <ul>
+            <li>Nike: $100 <button onclick="agregarProducto('Producto 1', 100)"> Carrito </li>
+            <li>Adidas: $200 <button onclick="agregarProducto('Producto 2', 200)"> Carrito </li>
+            <li>Saucony: $300 <button onclick="agregarProducto('Producto 3', 300)"> Carrito </li>
+        </ul>
+        <h2>Carrito:</h2>
+        <ul id="lista-carrito"> </ul>
+        <div id="total-carrito"> Total: $ <span id="total"> $:0,00</span></div>
+        <button onclick="finalizar()"> Comprar </button>
+
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
